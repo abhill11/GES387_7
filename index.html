@@ -51,13 +51,13 @@
 
             var map = L.map('map', {
               center: [39.8820984,-96.8164118],
-              zoom: 5
+              zoom: 4
             });
 
              L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png', {
                attribution: 'Map tiles by Carto, under CC BY 3.0. Data by OpenStreetMap, under ODbL.',
                maxZoom: 9,
-               minZoom: 4
+               minZoom: 3
              }).addTo(map);
 
 
